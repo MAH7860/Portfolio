@@ -1,0 +1,47 @@
+{
+  "extends": ["next/core-web-vitals", "next/typescript"],
+  "rules": {
+    "@typescript-eslint/ban-types": "off",
+    "@typescript-eslint/no-unused-vars": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "react/no-unescaped-entities": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "prefer-const": "off",
+    "no-var": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off",
+    "no-console": "off",
+    "no-unused-vars": "off",
+    "no-undef": "off",
+    "react/jsx-no-target-blank": "off",
+    "react/jsx-uses-react": "off",
+    "react/jsx-uses-vars": "off",
+    "react/no-danger": "off",
+    "react/display-name": "off",
+    "react-hooks/rules-of-hooks": "off",
+    "no-empty-function": "off",
+    "no-extra-boolean-cast": "off",
+    "no-constant-condition": "off",
+    "no-magic-numbers": "off",
+    "eqeqeq": "off",                         // Turn off strict equality (=== vs ==) checks
+    "curly": "off",                          // Turn off requirement for curly braces in blocks
+    "no-trailing-spaces": "off",             // Turn off the rule about trailing spaces
+    "arrow-body-style": "off",               // Turn off rule for arrow function body style
+    "prefer-arrow-callback": "off",          // Turn off rule for using arrow functions in callbacks
+    "object-curly-spacing": "off",           // Turn off spacing inside object braces
+    "array-bracket-spacing": "off",          // Turn off spacing inside array brackets
+    "indent": "off",                         // Turn off indentation rule
+    "semi": "off",                           // Turn off semicolon requirement
+    "quotes": "off",                         // Turn off quote style preference
+    "no-debugger": "off",                    // Turn off debugger statements disallowance
+    "no-duplicate-imports": "off",           // Turn off restriction on duplicate imports
+    "no-shadow": "off",                      // Turn off shadowing variable rule
+    "no-unused-expressions": "off",          // Allow unused expressions
+    "no-new": "off",                         // Turn off the restriction for the use of `new` keyword
+    "no-else-return": "off",                 // Turn off the rule disallowing else after return
+    "no-fallthrough": "off",                 // Turn off rule preventing fallthrough in switch cases
+    "no-implicit-globals": "off",            // Turn off disallowing global variables
+    "no-lone-blocks": "off",                  // Turn off disallowing lone blocks
+    "next/next/no-img-element": "off"  // Disable the warning about using <img> tag
+  }
+}
