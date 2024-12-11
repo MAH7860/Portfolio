@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    distDir: 'build', // Set the output directory to "build"
+
     output: 'export', // Enable static export
     images: {
       unoptimized: true, // Disable Image Optimization for static export
